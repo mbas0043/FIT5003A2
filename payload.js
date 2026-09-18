@@ -1,6 +1,6 @@
 const data = new URLSearchParams({
-  email: "attacker@example.test",
-  password: "new-password-123"
+  email: "alice@devbank.local",
+  password: "alice-password"
 });
 
 fetch("/profile", {
